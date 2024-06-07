@@ -22,14 +22,13 @@ class HomeVC: UIViewController {
     }
     
     // MARK: - IBAction Methods
-
     @IBAction func btnCallPackagePressed(_ sender: Any) {
+        //https://github.com/dharabhuva9/FrameworkNSDL.git
         let bundle = Bundle(for: UserDetailsVC.self)
-                let storyboard = UIStoryboard(name: "Main", bundle: bundle)
-                guard let userDetailsVC = storyboard.instantiateViewController(withIdentifier: "UserDetailsVC") as? UserDetailsVC else {
-                    fatalError("Unable to instantiate UserDetailsVC from storyboard")
-                }
-        //let userDetailsVC = UserDetailsVC.instantiateFromFramework()
+        let storyboard = UIStoryboard(name: "Main", bundle: bundle)
+        guard let userDetailsVC = storyboard.instantiateViewController(withIdentifier: "UserDetailsVC") as? UserDetailsVC else {
+            return
+        }
         userDetailsVC.delegate = self
         navigationController?.pushViewController(userDetailsVC, animated: true)
     }
