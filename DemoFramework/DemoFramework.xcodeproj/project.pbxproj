@@ -61,7 +61,7 @@
 		1DCEF0F32C12308B00DDB6A6 /* DemoFramework */ = {
 			isa = PBXGroup;
 			children = (
-				1DCEF1002C1230F700DDB6A6 /* Main.storyboard */,
+				1DDD539E2C12C6F8001CB2C3 /* StroryBoard */,
 				1DCEF10F2C12310F00DDB6A6 /* Network */,
 				1DCEF10C2C12310900DDB6A6 /* Model */,
 				1DCEF1032C1230FC00DDB6A6 /* ViewController */,
@@ -110,6 +110,14 @@
 				1DCEF10E2C12310F00DDB6A6 /* Network.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		1DDD539E2C12C6F8001CB2C3 /* StroryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1DCEF1002C1230F700DDB6A6 /* Main.storyboard */,
+			);
+			path = StroryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

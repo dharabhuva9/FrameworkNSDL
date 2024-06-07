@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.9.1)
+  - DemoFramework (1.0.0):
+    - Alamofire (~> 5.9.1)
+
+DEPENDENCIES:
+  - DemoFramework (from `../DemoFramework`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  DemoFramework:
+    :path: "../DemoFramework"
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  DemoFramework: 842a7b990d46746ca7076ec34ed9372b85b27053
+
+PODFILE CHECKSUM: 14eb01a5e145d6be4ddb802df1860471d817525f
+
+COCOAPODS: 1.15.2
